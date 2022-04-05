@@ -10,6 +10,7 @@ module.exports={
     browser.expect.element('.header-toggle').to.be.present
     var naviExpectedElements = ['work', 'about', 'careers', 'location', 'contact', 'news'];
     browser.moveToElement('css selector','.header-toggle', 10, 10)
+    //validate able to navigate through the menu items and verify user is redirected to correct page
     browser.click('.header-toggle')
     browser.elements('css selector', '.nav-wrapper.scroll > nav > ul > li a', function(result)
     {
