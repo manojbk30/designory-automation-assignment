@@ -1,7 +1,7 @@
 # designory-automation-assignment
 Designory Automation Assignment
 
-* We will need node JS to work with Nightwatch
+*We will need node JS to work with Nightwatch*
 
     [Install Node JS](https://nodejs.org/en)
 
